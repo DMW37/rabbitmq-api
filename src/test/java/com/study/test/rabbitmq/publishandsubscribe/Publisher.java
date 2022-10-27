@@ -33,6 +33,5 @@ public class Publisher {
         // 发送消息
         channel.basicPublish(EXCHANGE_NAME,"fanout时routingKey可以随便写",null,EXCHANGE_NAME.getBytes(StandardCharsets.UTF_8));
         System.out.println("发送消息成功!");
-
     }
 }

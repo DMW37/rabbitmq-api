@@ -1,4 +1,4 @@
-package com.study.test.rabbitmq.workqueues;
+package com.study.test.rabbitmq.workqueues.qos;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
